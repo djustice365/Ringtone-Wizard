@@ -1,0 +1,12 @@
+Todo list:
+	Create a better GUI (currently it's all placeholders).
+
+	Create sound player to lose dependency on windows media player
+
+Impediments:
+
+  When selecting a point for a "clip", the mouse click is retrieved as an integer.
+    TODO: Retrieve mouse position on click as a double or float for higher precision.
+    WHY: Mouse cursor seems to only snap to pixels by integer amounts.
+
+        (Workaround implemented - limitation of c#)
